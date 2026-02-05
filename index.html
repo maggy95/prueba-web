@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Elena Ruiz | Psicología de Alto Impacto</title>
+    <!-- Google Fonts: Immserive Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Elena Ruiz</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">El Método</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto" class="btn-nav">Agendar</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio" class="hero-impact">
+        <div class="hero-overlay"></div>
+        <div class="hero-content-impact">
+            <h1 class="kinetic-text">Espacio de <br><span class="italic-serif">Transformación</span></h1>
+            <p class="hero-subtext">Psicoterapia profunda para encontrar el equilibrio en un mundo complejo.</p>
+            <div class="hero-cta-wrapper">
+                <a href="#contacto" class="btn-impact">Comenzar Trayecto</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="section reveal">
+        <div class="container">
+            <h2 class="section-title-impact">El <span class="italic-serif">Acompañamiento</span></h2>
+            <div class="about-grid-impact">
+                <div class="about-image-cnt-impact">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800"
+                        alt="Dra. Elena Ruiz">
+                </div>
+                <div class="about-text-impact">
+                    <p class="highlight-text">No es solo terapia. Es un proceso de redescubrimiento.</p>
+                    <p>Soy Elena, psicóloga clínica con un enfoque en la profundidad humana. Mi trabajo consiste en
+                        descifrar los patrones que te limitan y construir juntos una nueva narrativa de bienestar.</p>
+                    <p>A través de un espacio seguro y una metodología rigurosa, transformamos la ansiedad en claridad y
+                        la duda en propósito.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section reveal">
+        <div class="container">
+            <h2 class="section-title-impact">Servicios <span class="italic-serif">Exclusivos</span></h2>
+            <div class="services-list-impact">
+                <div class="service-row">
+                    <span class="service-number">01</span>
+                    <h3>Terapia Individual de Alto Rendimiento</h3>
+                    <p>Enfoque intensivo para superar bloqueos emocionales y potenciar tu bienestar.</p>
+                </div>
+                <div class="service-row">
+                    <span class="service-number">02</span>
+                    <h3>Reconstrucción de Dinámicas de Pareja</h3>
+                    <p>Análisis profundo de la comunicación y el vínculo afectivo.</p>
+                </div>
+                <div class="service-row">
+                    <span class="service-number">03</span>
+                    <h3>Consultoría de Salud Mental Online</h3>
+                    <p>Privacidad absoluta y excelencia clínica desde cualquier lugar del mundo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section reveal">
+        <div class="container">
+            <div class="contact-card-impact">
+                <h2 class="section-title-impact">Inicia tu <span class="italic-serif">Cambio</span></h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group-impact">
+                        <input type="text" id="nombre" name="nombre" required placeholder="Nombre completo">
+                    </div>
+                    <div class="form-group-impact">
+                        <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+                    </div>
+                    <div class="form-group-impact">
+                        <textarea id="mensaje" name="mensaje" rows="4" required
+                            placeholder="¿Cuál es tu desafío actual?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit-impact">Solicitar Entrevista</button>
+                    <p class="form-success" id="formSuccess" style="display: none;">Petición enviada. Nos pondremos en
+                        contacto pronto.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Dra. Elena Ruiz. Diseño de Alto Impacto.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
